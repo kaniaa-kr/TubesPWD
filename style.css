@@ -1,0 +1,174 @@
+/* Base styles that must be in style.css */
+:root {
+    --color-primary: #000000;
+    --color-accent: #3b82f6; /* Tailwind blue-500 */
+    --color-light: #f3f4f6;
+    --color-text: #e5e7eb;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+/* Custom scrollbar for elegance (optional) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+/* Styling for the decorative blue ribbons (inspired by Duke example) */
+.ribbon-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background-color: var(--color-accent);
+    z-index: 10;
+}
+.ribbon-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: var(--color-accent);
+    z-index: 10;
+}
+
+/* Custom animation for fade-in on scroll */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition-delay: var(--delay);
+}
+.fade-in.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Specific styling for the overlapping image in the About section */
+.about-image {
+    z-index: 20;
+    transform: translateY(20px);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+}
+
+/* Adjusting Playfair Display for headings */
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero Image Placeholder Styling */
+.hero-bg {
+    background-image: url('https://i.pinimg.com/736x/53/22/c4/5322c40d7d33ea3acc9cb5206704c5b1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: adds parallax effect */
+}
+/* About Image Placeholder Styling */
+.graduate-photo {
+    background-image: url('https://i.pinimg.com/736x/23/bb/d3/23bbd3649d2e7288ef3e661d0f8aaeda.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+/* News Card Image Placeholders */
+.news-img-1 { background-image: url('https://picsum.photos/300/200?random=3'); background-size: cover; background-position: center; }
+.news-img-2 { background-image: url('https://picsum.photos/300/200?random=4'); background-size: cover; background-position: center; }
+.news-img-3 { background-image: url('https://picsum.photos/300/200?random=5'); background-size: cover; background-position: center; }
+.news-img-4 { background-image: url('https://picsum.photos/300/200?random=6'); background-size: cover; background-position: center; }
+.news-img-5 { background-image: url('https://picsum.photos/300/200?random=7'); background-size: cover; background-position: center; }
+.news-img-6 { background-image: url('https://picsum.photos/300/200?random=8'); background-size: cover; background-position: center; }
+
+/* Gallery Styles */
+.gallery-item {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+}
+
+.gallery-item.hidden {
+    display: none !important;
+    opacity: 0;
+}
+
+.gallery-filter {
+    transition: all 0.3s ease;
+}
+
+.gallery-filter.active {
+    background-color: var(--color-accent) !important;
+    color: white !important;
+}
+
+.gallery-filter:not(.active) {
+    background-color: #1f2937;
+    color: #9ca3af;
+}
+
+.gallery-filter:not(.active):hover {
+    background-color: #374151;
+    transform: translateY(-2px);
+}
+
+/* Lightbox Styles */
+#lightbox {
+    display: none;
+}
+
+#lightbox:not(.hidden) {
+    display: flex;
+}
+
+#lightbox img {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Faculty Card Hover Effect */
+.bg-gray-800:hover {
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+}
+
+/* Faculty Card as Link */
+a.bg-gray-800 {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.bg-gray-800:hover {
+    text-decoration: none;
+}
+
+/* Faculty Photo Styling */
+a.bg-gray-800 img {
+    transition: transform 0.5s ease;
+}
+
+a.bg-gray-800:hover img {
+    transform: scale(1.1);
+}
+
+/* Ensure links are clickable */
+a.bg-gray-800 * {
+    pointer-events: none;
+}
