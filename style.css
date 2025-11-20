@@ -82,12 +82,12 @@ body {
     background-position: center;
 }
 /* News Card Image Placeholders */
-.news-img-1 { background-image: url('https://picsum.photos/300/200?random=3'); background-size: cover; background-position: center; }
-.news-img-2 { background-image: url('https://picsum.photos/300/200?random=4'); background-size: cover; background-position: center; }
-.news-img-3 { background-image: url('https://picsum.photos/300/200?random=5'); background-size: cover; background-position: center; }
-.news-img-4 { background-image: url('https://picsum.photos/300/200?random=6'); background-size: cover; background-position: center; }
-.news-img-5 { background-image: url('https://picsum.photos/300/200?random=7'); background-size: cover; background-position: center; }
-.news-img-6 { background-image: url('https://picsum.photos/300/200?random=8'); background-size: cover; background-position: center; }
+.news-img-1 { background-image: url('img/Irene Nasya Azalia.jpg'); background-size: cover; background-position: center; }
+.news-img-2 { background-image: url('img/robotika.png'); background-size: cover; background-position: center; }
+.news-img-3 { background-image: url('img/sastra.png'); background-size: cover; background-position: center; }
+.news-img-4 { background-image: url('img/alumnibeneran.png'); background-size: cover; background-position: center; }
+.news-img-5 { background-image: url('/img/baju.png'); background-size: cover; background-position: center; }
+.news-img-6 { background-image: url('img/dekan2.png'); background-size: cover; background-position: center; }
 
 /* Gallery Styles */
 .gallery-item {
