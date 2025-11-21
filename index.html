@@ -1,587 +1,1373 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faculty of Sastra Mesin - The Spirit of Innovation and Literature in Engineering</title>
-    <meta name="description" content="Official website for the Faculty of Sastra Mesin, dedicated to academic excellence in the intersection of engineering and literature.">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Faculty of Sastra Mesin - The Spirit of Innovation and Literature in
+      Engineering
+    </title>
+    <meta
+      name="description"
+      content="Official website for the Faculty of Sastra Mesin, dedicated to academic excellence in the intersection of engineering and literature."
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <style src="style.css"></style>
-</head>
-<body>
-
+  </head>
+  <body>
     <header class="fixed top-0 left-0 right-0 z-50 bg-black/90 shadow-lg">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#home" class="text-xl md:text-2xl font-bold playfair text-white hover:text-blue-400 transition duration-300">
-                <span class="text-blue-500 text-3xl mr-1">SM</span> Faculty of Sastra Mesin
-            </a>
+      <nav
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
+      >
+        <a
+          href="#home"
+          class="text-xl md:text-2xl font-bold playfair text-white hover:text-blue-400 transition duration-300"
+        >
+          <span class="text-blue-500 text-3xl mr-1">SM</span> Faculty of Sastra
+          Mesin
+        </a>
 
-            <div class="hidden md:flex space-x-8 text-lg font-medium">
-                <a href="#home" class="text-white hover:text-blue-500 transition duration-300 nav-link">Home</a>
-                <a href="#about" class="text-white hover:text-blue-500 transition duration-300 nav-link">About Us</a>
-                <a href="#faculty" class="text-white hover:text-blue-500 transition duration-300 nav-link">Profil Dosen</a>
-                <a href="#gallery" class="text-white hover:text-blue-500 transition duration-300 nav-link">Galeri</a>
-                <a href="#scholarship" class="text-white hover:text-blue-500 transition duration-300 nav-link">Scholarship</a>
-                <a href="#events" class="text-white hover:text-blue-500 transition duration-300 nav-link">Event</a>
-                <a href="#programs" class="text-white hover:text-blue-500 transition duration-300 nav-link">New Semester</a>
-            </div>
-
-            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
-                <i class="fas fa-bars text-2xl"></i>
-            </button>
-        </nav>
-
-        <div id="mobile-menu" class="hidden md:hidden bg-black/95 transition-all duration-300 ease-in-out">
-            <a href="#home" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">Home</a>
-            <a href="#about" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">About Us</a>
-            <a href="#faculty" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">Profil Dosen</a>
-            <a href="#gallery" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">Galeri</a>
-            <a href="#scholarship" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">Scholarship</a>
-            <a href="#events" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">Event</a>
-            <a href="#programs" class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link">New Semester</a>
+        <div class="hidden md:flex space-x-8 text-lg font-medium">
+          <a
+            href="#home"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >About Us</a
+          >
+          <a
+            href="#faculty"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >Profil Dosen</a
+          >
+          <a
+            href="#gallery"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >Galeri</a
+          >
+          <a
+            href="#scholarship"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >Scholarship</a
+          >
+          <a
+            href="#events"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >Event</a
+          >
+          <a
+            href="#programs"
+            class="text-white hover:text-blue-500 transition duration-300 nav-link"
+            >New Semester</a
+          >
         </div>
+
+        <button
+          id="mobile-menu-button"
+          class="md:hidden text-white focus:outline-none"
+        >
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </nav>
+
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-black/95 transition-all duration-300 ease-in-out"
+      >
+        <a
+          href="#home"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >About Us</a
+        >
+        <a
+          href="#faculty"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >Profil Dosen</a
+        >
+        <a
+          href="#gallery"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >Galeri</a
+        >
+        <a
+          href="#scholarship"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >Scholarship</a
+        >
+        <a
+          href="#events"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >Event</a
+        >
+        <a
+          href="#programs"
+          class="block py-3 px-6 text-white hover:bg-blue-800/20 transition duration-300 border-t border-gray-800 nav-link"
+          >New Semester</a
+        >
+      </div>
     </header>
 
     <main>
-        <section id="home" class="hero-bg relative h-screen flex items-center justify-center text-center">
-            <div class="absolute inset-0 bg-black/60"></div>
-            <div class="ribbon-left"></div>
-            <div class="ribbon-right"></div>
+      <section
+        id="home"
+        class="hero-bg relative h-screen flex items-center justify-center text-center"
+      >
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="ribbon-left"></div>
+        <div class="ribbon-right"></div>
 
-            <div class="relative z-10 p-6 max-w-4xl mx-auto">
-                <h1 class="playfair text-5xl sm:text-7xl lg:text-8xl font-bold text-white mb-4 leading-tight fade-in" style="--delay: 0s;">
-                    Faculty of Sastra Mesin
-                </h1>
-                <p class="text-xl sm:text-2xl lg:text-3xl font-light text-gray-200 uppercase tracking-widest fade-in" style="--delay: 0.2s;">
-                    The Spirit of Innovation and Literature in Engineering
+        <div class="relative z-10 p-6 max-w-4xl mx-auto">
+          <h1
+            class="playfair text-5xl sm:text-7xl lg:text-8xl font-bold text-white mb-4 leading-tight fade-in"
+            style="--delay: 0s"
+          >
+            Faculty of Sastra Mesin
+          </h1>
+          <p
+            class="text-xl sm:text-2xl lg:text-3xl font-light text-gray-200 uppercase tracking-widest fade-in"
+            style="--delay: 0.2s"
+          >
+            The Spirit of Innovation and Literature in Engineering
+          </p>
+          <a
+            href="#about"
+            class="mt-8 inline-block px-8 py-3 bg-blue-500 text-white text-lg font-medium uppercase tracking-wider rounded-full shadow-lg hover:bg-blue-600 transition duration-300 fade-in"
+            style="--delay: 0.4s"
+          >
+            Explore Our Legacy
+          </a>
+        </div>
+      </section>
+
+      <section class="py-20 bg-gray-900" id="info-cards">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-3 gap-10">
+            <div
+              class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in"
+              style="--delay: 0s"
+            >
+              <i
+                class="fas fa-hand-holding-usd text-5xl text-blue-500 mb-4"
+              ></i>
+              <h3
+                id="scholarship"
+                class="text-2xl font-bold playfair mb-3 text-white"
+              >
+                Beasiswa
+              </h3>
+              <p class="text-gray-300">
+                Buka potensi terbaikmu melalui berbagai kesempatan bantuan
+                pendidikan berbasis prestasi maupun kebutuhan. Kami memastikan
+                bahwa cita cita akademik tidak pernah terhalang oleh keadaan.
+              </p>
+              <a
+                href="https://sastramesin.edu/scholarship"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300"
+                >Pelajari Lebih Lanjut <i class="fas fa-arrow-right ml-1"></i
+              ></a>
+            </div>
+
+            <div
+              class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in"
+              style="--delay: 0.2s"
+            >
+              <i class="fas fa-university text-5xl text-blue-500 mb-4"></i>
+              <h3
+                id="our-campus"
+                class="text-2xl font-bold playfair mb-3 text-white"
+              >
+                Kampus Kami
+              </h3>
+              <p class="text-gray-300">
+                Jelajahi laboratorium berteknologi mutakhir, perpustakaan
+                bersejarah, dan ruang kolaboratif yang dirancang untuk
+                menumbuhkan inovasi teknis sekaligus ekspresi kreatif.
+              </p>
+              <a
+                href="https://www.google.com/maps/search/university+campus"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300"
+                >Lihat Peta <i class="fas fa-arrow-right ml-1"></i
+              ></a>
+            </div>
+
+            <div
+              class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in"
+              style="--delay: 0.4s"
+            >
+              <i class="fas fa-book-open text-5xl text-blue-500 mb-4"></i>
+              <h3
+                id="programs"
+                class="text-2xl font-bold playfair mb-3 text-white"
+              >
+                Program Akademik
+              </h3>
+              <p class="text-gray-300">
+                Temukan perpaduan unik antara disiplin rekayasa dan kajian
+                sastra yang mendalam, melahirkan lulusan yang unggul secara
+                teknis dan kaya wawasan.
+              </p>
+              <a
+                href="https://sastramesin.edu/programs"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300"
+                >Lihat Katalog <i class="fas fa-arrow-right ml-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-24 bg-black relative overflow-hidden">
+        <div
+          class="absolute top-0 right-0 w-12 h-full bg-blue-500/10 hidden lg:block"
+        ></div>
+
+        <div
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 relative"
+        >
+          <div class="lg:pr-12 z-10 fade-in" style="--delay: 0s">
+            <h2
+              class="playfair text-5xl font-bold mb-6 text-white border-b-4 border-blue-500 pb-2"
+            >
+              Our Mission & Legacy
+            </h2>
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+              Fakultas Sastra Mesin tumbuh dari keyakinan bahwa ketelitian ilmu
+              dan kedalaman sastra dapat saling menguatkan. Di sini, roda
+              pemikiran teknis berputar berdampingan dengan imajinasi dan
+              renungan manusia. Kurikulum kami menantang mahasiswa untuk membaca
+              dunia seutuhnya, merancang teknologi dengan presisi sekaligus
+              memahami maknanya bagi kehidupan. Setiap lulusan tidak hanya mampu
+              memecahkan persoalan rumit, tetapi juga menuturkan gagasannya
+              dengan jernih di tengah keberagaman cara pandang.
+            </p>
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+              Kami menjaga tradisi keunggulan akademik dan penelitian yang
+              melampaui batas disiplin. Dalam komunitas ini, kreativitas tumbuh
+              bersama logika, dan inovasi menjadi kisah yang hidup. Sastra Mesin
+              menjadi rumah bagi mereka yang percaya bahwa masa depan terbaik
+              dibangun oleh pikiran yang terasah dan hati yang peka, oleh insan
+              yang dapat mencipta sekaligus memaknai, dan menjadikan teknologi
+              bukan hanya alat, tetapi cermin bagi kemanusiaan.
+            </p>
+            <a
+              href="#faculty"
+              class="inline-block px-6 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition duration-300"
+              >Meet Our Faculty</a
+            >
+          </div>
+
+          <div class="relative flex justify-center lg:justify-end">
+            <div
+              class="w-full max-w-md h-[400px] lg:h-[550px] bg-gray-800 rounded-xl overflow-hidden shadow-2xl about-image graduate-photo fade-in"
+              style="--delay: 0.3s"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Faculty Profiles Section -->
+      <section id="faculty" class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="playfair text-5xl font-bold mb-4 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in"
+            style="--delay: 0s"
+          >
+            Profil Dosen
+          </h2>
+          <p
+            class="text-gray-400 text-center mb-12 max-w-2xl mx-auto fade-in"
+            style="--delay: 0.1s"
+          >
+            Kenali para dosen berdedikasi yang membimbing perjalanan akademik
+            Anda di Faculty of Sastra Mesin
+          </p>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Dekan Fakultas -->
+            <a
+              href="mailto:dekan@sastramesin.edu?subject=Konsultasi Akademik"
+              class="bg-gradient-to-br from-blue-900 to-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block border-2 border-blue-500/30"
+              style="--delay: 0.1s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden relative"
+              >
+                <img
+                  src="img/virsya.jpg"
+                  alt="Prof. Dr. Dekan Fakultas"
+                  class="w-full h-full object-cover"
+                />
+                <div
+                  class="absolute top-4 right-4 bg-blue-500 px-3 py-1 rounded-full text-xs font-bold text-white"
+                >
+                  DEKAN
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Prof. Dr. Virsya Meidina Andriadie, S.T., M.T., Ph.D.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold text-lg">
+                  Dekan Fakultas
                 </p>
-                <a href="#about" class="mt-8 inline-block px-8 py-3 bg-blue-500 text-white text-lg font-medium uppercase tracking-wider rounded-full shadow-lg hover:bg-blue-600 transition duration-300 fade-in" style="--delay: 0.4s;">
-                    Explore Our Legacy
-                </a>
-            </div>
-        </section>
-
-        <section class="py-20 bg-gray-900" id="info-cards">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid md:grid-cols-3 gap-10">
-
-                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in" style="--delay: 0s;">
-                        <i class="fas fa-hand-holding-usd text-5xl text-blue-500 mb-4"></i>
-                        <h3 id="scholarship" class="text-2xl font-bold playfair mb-3 text-white">Beasiswa</h3>
-                        <p class="text-gray-300">Buka potensi terbaikmu melalui berbagai kesempatan bantuan pendidikan berbasis prestasi maupun kebutuhan. Kami memastikan bahwa cita cita akademik tidak pernah terhalang oleh keadaan.</p>
-                        <a href="https://sastramesin.edu/scholarship" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300">Pelajari Lebih Lanjut <i class="fas fa-arrow-right ml-1"></i></a>
-                    </div>
-
-                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in" style="--delay: 0.2s;">
-                        <i class="fas fa-university text-5xl text-blue-500 mb-4"></i>
-                        <h3 id="our-campus" class="text-2xl font-bold playfair mb-3 text-white">Kampus Kami</h3>
-                        <p class="text-gray-300">Jelajahi laboratorium berteknologi mutakhir, perpustakaan bersejarah, dan ruang kolaboratif yang dirancang untuk menumbuhkan inovasi teknis sekaligus ekspresi kreatif.</p>
-                        <a href="https://www.google.com/maps/search/university+campus" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300">Lihat Peta <i class="fas fa-arrow-right ml-1"></i></a>
-                    </div>
-
-                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] cursor-pointer fade-in" style="--delay: 0.4s;">
-                        <i class="fas fa-book-open text-5xl text-blue-500 mb-4"></i>
-                        <h3 id="programs" class="text-2xl font-bold playfair mb-3 text-white">Program Akademik</h3>
-                        <p class="text-gray-300">Temukan perpaduan unik antara disiplin rekayasa dan kajian sastra yang mendalam, melahirkan lulusan yang unggul secara teknis dan kaya wawasan.</p>
-                        <a href="https://sastramesin.edu/programs" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 font-medium hover:text-blue-300">Lihat Katalog <i class="fas fa-arrow-right ml-1"></i></a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="py-24 bg-black relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-12 h-full bg-blue-500/10 hidden lg:block"></div>
-            
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 relative">
-                
-                <div class="lg:pr-12 z-10 fade-in" style="--delay: 0s;">
-                    <h2 class="playfair text-5xl font-bold mb-6 text-white border-b-4 border-blue-500 pb-2">Our Mission & Legacy</h2>
-                    <p class="text-lg text-gray-300 mb-6 leading-relaxed">
-                       Fakultas Sastra Mesin tumbuh dari keyakinan bahwa ketelitian ilmu dan kedalaman sastra dapat saling menguatkan. Di sini, roda pemikiran teknis berputar berdampingan dengan imajinasi dan renungan manusia. Kurikulum kami menantang mahasiswa untuk membaca dunia seutuhnya, merancang teknologi dengan presisi sekaligus memahami maknanya bagi kehidupan. Setiap lulusan tidak hanya mampu memecahkan persoalan rumit, tetapi juga menuturkan gagasannya dengan jernih di tengah keberagaman cara pandang.
-                    </p>
-                    <p class="text-lg text-gray-300 mb-6 leading-relaxed">
-                        Kami menjaga tradisi keunggulan akademik dan penelitian yang melampaui batas disiplin. Dalam komunitas ini, kreativitas tumbuh bersama logika, dan inovasi menjadi kisah yang hidup. Sastra Mesin menjadi rumah bagi mereka yang percaya bahwa masa depan terbaik dibangun oleh pikiran yang terasah dan hati yang peka, oleh insan yang dapat mencipta sekaligus memaknai, dan menjadikan teknologi bukan hanya alat, tetapi cermin bagi kemanusiaan.
-                    </p>
-                    <a href="#faculty" class="inline-block px-6 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition duration-300">Meet Our Faculty</a>
-                </div>
-
-                <div class="relative flex justify-center lg:justify-end">
-                    <div class="w-full max-w-md h-[400px] lg:h-[550px] bg-gray-800 rounded-xl overflow-hidden shadow-2xl about-image graduate-photo fade-in" style="--delay: 0.3s;">
-                        </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Faculty Profiles Section -->
-        <section id="faculty" class="py-24 bg-gray-900">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="playfair text-5xl font-bold mb-4 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in" style="--delay: 0s;">
-                    Profil Dosen
-                </h2>
-                <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto fade-in" style="--delay: 0.1s;">
-                    Kenali para dosen berdedikasi yang membimbing perjalanan akademik Anda di Faculty of Sastra Mesin
+                <p class="text-gray-`300 text-sm mb-4">
+                  Memimpin Faculty of Sastra Mesin dengan visi integrasi
+                  keunggulan teknik dan sastra. Pengalaman 25+ tahun dalam
+                  pendidikan tinggi, penelitian, dan pengembangan kurikulum
+                  inovatif.
                 </p>
-                
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Dekan Fakultas -->
-                    <a href="mailto:dekan@sastramesin.edu?subject=Konsultasi Akademik" class="bg-gradient-to-br from-blue-900 to-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block border-2 border-blue-500/30" style="--delay: 0.1s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Prof. Dr. Dekan Fakultas" class="w-full h-full object-cover">
-                            <div class="absolute top-4 right-4 bg-blue-500 px-3 py-1 rounded-full text-xs font-bold text-white">
-                                DEKAN
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Prof. Dr. Ahmad Wijaya, S.T., M.T., Ph.D.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold text-lg">Dekan Fakultas</p>
-                            <p class="text-gray-300 text-sm mb-4">Memimpin Faculty of Sastra Mesin dengan visi integrasi keunggulan teknik dan sastra. Pengalaman 25+ tahun dalam pendidikan tinggi, penelitian, dan pengembangan kurikulum inovatif.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>dekan@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2 flex-wrap">
-                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold">Leadership</span>
-                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold">Academic Excellence</span>
-                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold">Strategic Planning</span>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- Faculty Card 1 -->
-                    <a href="mailto:h1101241055@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.2s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Kania Kirani.jpg" alt="Prof. Dr. Kania Kirani" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Prof. Dr. Kania Kirani, S.T., M.T.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Ketua Program Studi</p>
-                            <p class="text-gray-300 text-sm mb-4">Spesialisasi: Teknik Mesin dan Sastra Teknik. Pengalaman 20+ tahun dalam penelitian mesin presisi dan dokumentasi teknis.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>kaniaa.kr@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Mechanical Engineering</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Technical Writing</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 2 -->
-                    <a href="mailto:h1101241061@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.3s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Viona Daniella Bira.jpg" alt="Dr. Viona Daniella Bira" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Dr. Viona Daniella Bira, S.T., M.Eng.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen Senior</p>
-                            <p class="text-gray-300 text-sm mb-4">Ahli dalam Material Science dan Sastra Ilmiah. Peneliti aktif dengan publikasi internasional di bidang komposit dan dokumentasi penelitian.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>viona.bira@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Material Science</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Research Writing</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 3 -->
-                    <a href="mailto:h1101241033@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.4s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Jesika Tan.jpg" alt="Prof. Dr. Jesika Tan" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Prof. Dr. Jesika Tan, S.T., Ph.D.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen & Peneliti</p>
-                            <p class="text-gray-300 text-sm mb-4">Pakar dalam Thermodinamika dan Sastra Teknik. Memimpin berbagai proyek penelitian kolaboratif dengan industri dan universitas internasional.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>jesika.tan@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Thermodynamics</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Technical Communication</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 4 -->
-                    <a href="mailto:h1101241025@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.5s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Syafira Aulianisa.jpg" alt="Dr. Syafira Au" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Dr. Syafira Aulianisa, S.T., M.Sc.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen</p>
-                            <p class="text-gray-300 text-sm mb-4">Spesialisasi dalam CAD/CAM dan Dokumentasi Teknis. Aktif dalam pengembangan kurikulum dan mentoring mahasiswa.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>syafira.au@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">CAD/CAM</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Technical Documentation</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 5 -->
-                    <a href="mailto:h1101241048@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.6s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Timothy Walukow.jpg" alt="Dr. Timothy Walukow" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Dr. Timothy Walukow, S.T., M.T.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen & Koordinator Lab</p>
-                            <p class="text-gray-300 text-sm mb-4">Ahli dalam Robotika dan Sastra Teknik. Mengelola laboratorium robotika dan menulis berbagai publikasi tentang integrasi teknologi dan sastra.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>walukow.timothy@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Robotics</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Technical Writing</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 6 -->
-                    <a href="mailto:h1101241013@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.7s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Nabila Nur Anisa.jpg" alt="Dr. Nabila Nur Anisa" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Dr. Nabila Nur Anisa, S.T., M.Eng.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen Senior</p>
-                            <p class="text-gray-300 text-sm mb-4">Spesialisasi dalam Manufacturing dan Sastra Industri. Memiliki pengalaman luas dalam industri dan akademik dengan fokus pada sustainable manufacturing.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>nabila.nisa@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Manufacturing</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Industrial Writing</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Faculty Card 7 -->
-                    <a href="mailto:h1101241031@student.untan.ac.id?subject=Konsultasi Akademik" class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block" style="--delay: 0.8s;">
-                        <div class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden">
-                            <img src="img/Irene Nasya Azalia.jpg" alt="Dr. Irene Nasya Azalia" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold playfair mb-2 text-white">Dr. Irene Nasya Azalia, S.T., M.T., Ph.D.</h3>
-                            <p class="text-blue-400 mb-3 font-semibold">Dosen & Kepala Laboratorium</p>
-                            <p class="text-gray-300 text-sm mb-4">Ahli dalam Sistem Kontrol dan Sastra Teknik. Memimpin penelitian tentang integrasi sistem kontrol otomatis dengan dokumentasi teknis yang komprehensif.</p>
-                            <div class="flex items-center text-sm text-gray-400 mb-4">
-                                <i class="fas fa-envelope mr-2"></i>
-                                <span>azalia.irene@sastramesin.edu</span>
-                            </div>
-                            <div class="flex gap-2">
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Control Systems</span>
-                                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">Technical Documentation</span>
-                            </div>
-                        </div>
-                    </a>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>dekan@sastramesin.edu</span>
                 </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section id="gallery" class="py-24 bg-black">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="playfair text-5xl font-bold mb-4 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in" style="--delay: 0s;">
-                    Galeri
-                </h2>
-                <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto fade-in" style="--delay: 0.1s;">
-                    Jelajahi momen-momen berharga dari kegiatan akademik, penelitian, dan kehidupan kampus di Faculty of Sastra Mesin
+                <div class="flex gap-2 flex-wrap">
+                  <span
+                    class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold"
+                    >Leadership</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold"
+                    >Academic Excellence</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs font-semibold"
+                    >Strategic Planning</span
+                  >
+                </div>
+              </div>
+            </a>
+            <!-- Faculty Card 1 -->
+            <a
+              href="mailto:h1101241055@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.2s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Kania Kirani.jpg"
+                  alt="Prof. Dr. Kania Kirani"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Prof. Dr. Kania Kirani, S.T., M.T.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">
+                  Ketua Program Studi
                 </p>
-                
-                <!-- Gallery Filter -->
-                <div class="flex flex-wrap justify-center gap-4 mb-8 fade-in" style="--delay: 0.2s;">
-                    <button class="gallery-filter active px-6 py-2 rounded-full transition duration-300" data-filter="all" style="background-color: #3b82f6; color: white;">
-                        Semua
-                    </button>
-                    <button class="gallery-filter px-6 py-2 rounded-full transition duration-300" data-filter="campus" style="background-color: #1f2937; color: #9ca3af;">
-                        Kampus
-                    </button>
-                    <button class="gallery-filter px-6 py-2 rounded-full transition duration-300" data-filter="lab" style="background-color: #1f2937; color: #9ca3af;">
-                        Laboratorium
-                    </button>
-                    <button class="gallery-filter px-6 py-2 rounded-full transition duration-300" data-filter="event" style="background-color: #1f2937; color: #9ca3af;">
-                        Acara
-                    </button>
-                    <button class="gallery-filter px-6 py-2 rounded-full transition duration-300" data-filter="research" style="background-color: #1f2937; color: #9ca3af;">
-                        Penelitian
-                    </button>
+                <p class="text-gray-300 text-sm mb-4">
+                  Spesialisasi: Teknik Mesin dan Sastra Teknik. Pengalaman 20+
+                  tahun dalam penelitian mesin presisi dan dokumentasi teknis.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>kaniaa.kr@sastramesin.edu</span>
                 </div>
-
-                <!-- Gallery Grid -->
-                <div class="grid md:grid-cols-3 gap-4 gallery-grid">
-                    <!-- Gallery Item 1 -->
-                    <div class="gallery-item fade-in" data-category="campus" style="--delay: 0.3s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://i.pinimg.com/736x/a3/1b/f2/a31bf2faeb72cea7f7ac432cf30de513.jpg" alt="Campus Building" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 2 -->
-                    <div class="gallery-item fade-in" data-category="lab" style="--delay: 0.4s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Laboratory" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 3 -->
-                    <div class="gallery-item fade-in" data-category="event" style="--delay: 0.5s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Event" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 4 -->
-                    <div class="gallery-item fade-in" data-category="research" style="--delay: 0.6s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Research" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 5 -->
-                    <div class="gallery-item fade-in" data-category="campus" style="--delay: 0.7s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campus View" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 6 -->
-                    <div class="gallery-item fade-in" data-category="lab" style="--delay: 0.8s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Workshop" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 7 -->
-                    <div class="gallery-item fade-in" data-category="event" style="--delay: 0.9s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Graduation" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 8 -->
-                    <div class="gallery-item fade-in" data-category="research" style="--delay: 1s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Research Project" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 9 -->
-                    <div class="gallery-item fade-in" data-category="campus" style="--delay: 1.1s;">
-                        <div class="relative overflow-hidden rounded-xl cursor-pointer group">
-                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Library" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                                <i class="fas fa-search-plus text-4xl text-white"></i>
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Mechanical Engineering</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Technical Writing</span
+                  >
                 </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 2 -->
+            <a
+              href="mailto:h1101241061@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.3s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Viona Daniella Bira.jpg"
+                  alt="Dr. Viona Daniella Bira"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Dr. Viona Daniella Bira, S.T., M.Eng.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">Dosen Senior</p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Ahli dalam Material Science dan Sastra Ilmiah. Peneliti aktif
+                  dengan publikasi internasional di bidang komposit dan
+                  dokumentasi penelitian.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>viona.bira@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Material Science</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Research Writing</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 3 -->
+            <a
+              href="mailto:h1101241033@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.4s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Jesika Tan.jpg"
+                  alt="Prof. Dr. Jesika Tan"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Prof. Dr. Jesika Tan, S.T., Ph.D.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">Dosen & Peneliti</p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Pakar dalam Thermodinamika dan Sastra Teknik. Memimpin
+                  berbagai proyek penelitian kolaboratif dengan industri dan
+                  universitas internasional.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>jesika.tan@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Thermodynamics</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Technical Communication</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 4 -->
+            <a
+              href="mailto:h1101241025@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.5s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Syafira Aulianisa.jpg"
+                  alt="Dr. Syafira Au"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Dr. Syafira Aulianisa, S.T., M.Sc.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">Dosen</p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Spesialisasi dalam CAD/CAM dan Dokumentasi Teknis. Aktif dalam
+                  pengembangan kurikulum dan mentoring mahasiswa.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>syafira.au@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >CAD/CAM</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Technical Documentation</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 5 -->
+            <a
+              href="mailto:h1101241048@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.6s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Timothy Walukow.jpg"
+                  alt="Dr. Timothy Walukow"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Dr. Timothy Walukow, S.T., M.T.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">
+                  Dosen & Koordinator Lab
+                </p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Ahli dalam Robotika dan Sastra Teknik. Mengelola laboratorium
+                  robotika dan menulis berbagai publikasi tentang integrasi
+                  teknologi dan sastra.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>walukow.timothy@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Robotics</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Technical Writing</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 6 -->
+            <a
+              href="mailto:h1101241013@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.7s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Nabila Nur Anisa.jpg"
+                  alt="Dr. Nabila Nur Anisa"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Dr. Nabila Nur Anisa, S.T., M.Eng.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">Dosen Senior</p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Spesialisasi dalam Manufacturing dan Sastra Industri. Memiliki
+                  pengalaman luas dalam industri dan akademik dengan fokus pada
+                  sustainable manufacturing.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>nabila.nisa@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Manufacturing</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Industrial Writing</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <!-- Faculty Card 7 -->
+            <a
+              href="mailto:h1101241031@student.untan.ac.id?subject=Konsultasi Akademik"
+              class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition duration-500 transform hover:scale-[1.02] fade-in block"
+              style="--delay: 0.8s"
+            >
+              <div
+                class="h-64 bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden"
+              >
+                <img
+                  src="img/Irene Nasya Azalia.jpg"
+                  alt="Dr. Irene Nasya Azalia"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold playfair mb-2 text-white">
+                  Dr. Irene Nasya Azalia, S.T., M.T., Ph.D.
+                </h3>
+                <p class="text-blue-400 mb-3 font-semibold">
+                  Dosen & Kepala Laboratorium
+                </p>
+                <p class="text-gray-300 text-sm mb-4">
+                  Ahli dalam Sistem Kontrol dan Sastra Teknik. Memimpin
+                  penelitian tentang integrasi sistem kontrol otomatis dengan
+                  dokumentasi teknis yang komprehensif.
+                </p>
+                <div class="flex items-center text-sm text-gray-400 mb-4">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <span>azalia.irene@sastramesin.edu</span>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Control Systems</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs"
+                    >Technical Documentation</span
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="playfair text-5xl font-bold mb-4 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in"
+            style="--delay: 0s"
+          >
+            Galeri
+          </h2>
+          <p
+            class="text-gray-400 text-center mb-12 max-w-2xl mx-auto fade-in"
+            style="--delay: 0.1s"
+          >
+            Jelajahi momen-momen berharga dari kegiatan akademik, penelitian,
+            dan kehidupan kampus di Faculty of Sastra Mesin
+          </p>
+
+          <!-- Gallery Filter -->
+          <div
+            class="flex flex-wrap justify-center gap-4 mb-8 fade-in"
+            style="--delay: 0.2s"
+          >
+            <button
+              class="gallery-filter active px-6 py-2 rounded-full transition duration-300"
+              data-filter="all"
+              style="background-color: #3b82f6; color: white"
+            >
+              Semua
+            </button>
+            <button
+              class="gallery-filter px-6 py-2 rounded-full transition duration-300"
+              data-filter="campus"
+              style="background-color: #1f2937; color: #9ca3af"
+            >
+              Kampus
+            </button>
+            <button
+              class="gallery-filter px-6 py-2 rounded-full transition duration-300"
+              data-filter="lab"
+              style="background-color: #1f2937; color: #9ca3af"
+            >
+              Laboratorium
+            </button>
+            <button
+              class="gallery-filter px-6 py-2 rounded-full transition duration-300"
+              data-filter="event"
+              style="background-color: #1f2937; color: #9ca3af"
+            >
+              Acara
+            </button>
+            <button
+              class="gallery-filter px-6 py-2 rounded-full transition duration-300"
+              data-filter="research"
+              style="background-color: #1f2937; color: #9ca3af"
+            >
+              Penelitian
+            </button>
+          </div>
+
+          <!-- Gallery Grid -->
+          <div class="grid md:grid-cols-3 gap-4 gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="campus"
+              style="--delay: 0.3s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://i.pinimg.com/736x/a3/1b/f2/a31bf2faeb72cea7f7ac432cf30de513.jpg"
+                  alt="Campus Building"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
             </div>
 
-            <!-- Lightbox Modal -->
-            <div id="lightbox" class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center">
-                <button id="closeLightbox" class="absolute top-4 right-4 text-white text-4xl hover:text-blue-400 transition duration-300">
-                    <i class="fas fa-times"></i>
-                </button>
-                <button id="prevImage" class="absolute left-4 text-white text-4xl hover:text-blue-400 transition duration-300">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextImage" class="absolute right-4 text-white text-4xl hover:text-blue-400 transition duration-300">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-                <img id="lightboxImage" src="" alt="Gallery Image" class="max-w-7xl max-h-[90vh] object-contain">
-            </div>
-        </section>
-
-        <section id="events" class="py-24 bg-gray-900">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="playfair text-5xl font-bold mb-12 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in" style="--delay: 0s;">
-                    Latest News & Events
-                </h2>
-                
-                <div class="grid lg:grid-cols-3 gap-10 mb-16">
-                    
-                    <div class="lg:col-span-1 fade-in" style="--delay: 0.1s;">
-                        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
-                            <h3 class="text-2xl font-bold playfair mb-4 text-white border-b border-gray-700 pb-2">Academic Calendar</h3>
-                            <div class="calendar-widget text-center">
-                                <p class="text-lg font-semibold text-blue-400 mb-3">November 2025</p>
-                                <div class="grid grid-cols-7 gap-1 text-sm text-gray-400 font-medium">
-                                    <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
-                                </div>
-                                <div class="grid grid-cols-7 gap-1 mt-1 text-white">
-                                    <span class="py-1"></span><span class="py-1"></span><span class="py-1"></span><span class="py-1"></span><span class="py-1">1</span><span class="py-1">2</span>
-                                    <span class="py-1">3</span><span class="py-1 bg-blue-600 rounded-full font-bold text-sm">4</span><span class="py-1">5</span><span class="py-1">6</span><span class="py-1">7</span><span class="py-1">8</span><span class="py-1">9</span>
-                                    <span class="py-1">10</span><span class="py-1">11</span><span class="py-1 bg-gray-700 rounded-full text-sm">12</span><span class="py-1">13</span><span class="py-1">14</span><span class="py-1">15</span><span class="py-1">16</span>
-                                    <span class="py-1">17</span><span class="py-1">18</span><span class="py-1 bg-blue-600 rounded-full font-bold text-sm">19</span><span class="py-1">20</span><span class="py-1">21</span><span class="py-1">22</span><span class="py-1">23</span>
-                                    <span class="py-1">24</span><span class="py-1">25</span><span class="py-1">26</span><span class="py-1">27</span><span class="py-1 bg-gray-700 rounded-full text-sm">28</span><span class="py-1">29</span><span class="py-1">30</span>
-                                </div>
-                                <ul class="mt-4 text-left text-sm space-y-2">
-                                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-2"></span><span class="text-white">Nov 4: Fall Thesis Submission Deadline</span></li>
-                                    <li class="flex items-center"><span class="w-2 h-2 bg-gray-700 rounded-full mr-2"></span><span class="text-white">Nov 12: Guest Lecture: Future of AI</span></li>
-                                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-2"></span><span class="text-white">Nov 19: Annual Sastra Mesin Gala</span></li>
-                                    <li class="flex items-center"><span class="w-2 h-2 bg-gray-700 rounded-full mr-2"></span><span class="text-white">Nov 28: Faculty Development Workshop</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="lg:col-span-2 grid sm:grid-cols-2 gap-8">
-                        
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.2s;">
-                            <div class="h-36 news-img-1"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Prof. Irene Meraih Hibah Besar untuk Riset Literasi Mesin</h4>
-                                <p class="text-gray-400 text-sm mb-4">Proyek Profesor Irene tentang pemrosesan bahasa alami menerima pendanaan sebesar 3,2 juta dolar untuk pengembangan penelitian di Sastra Mesin.</p>
-                                <a href="https://sastramesin.edu/news/literary-tech-grant" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Baca Berita <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.3s;">
-                            <div class="h-36 news-img-2"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Tim Robotika Mahasiswa Menjuarai Kompetisi Nasional</h4>
-                                <p class="text-gray-400 text-sm mb-4">Tim robotika kami memenangkan kompetisi nasional berkat inovasi desain dan keunggulan teknis yang menunjukkan dedikasi mereka sepanjang tahun.</p>
-                                <a href="https://sastramesin.edu/news/robotics-competition" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Baca Berita <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.4s;">
-                            <div class="h-36 news-img-3"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Program Magister Interdisipliner Baru Berencana Diluncurkan</h4>
-                                <p class="text-gray-400 text-sm mb-4">Program Magister baru kami, Strategi Interdisipliner dalam Rekayasa dan Narasi, menggabungkan pendidikan teknik dengan studi sastra untuk membentuk pemimpin masa depan yang visioner.</p>
-                                <a href="https://sastramesin.edu/news/masters-program" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Read News <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.5s;">
-                            <div class="h-36 news-img-4"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Sorotan Alumni: Membangun Kota Cerdas Berkelanjutan</h4>
-                                <p class="text-gray-400 text-sm mb-4">Salah satu lulusan kami, Sahrul A., memimpin proyek rekayasa yang bertujuan menciptakan solusi kota cerdas yang lebih berkelanjutan untuk masa depan.</p>
-                                <a href="https://sastramesin.edu/news/alumni-spotlight" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Baca Berita <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.6s;">
-                            <div class="h-36 news-img-5"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Panggilan untuk Makalah: Simposium Narasi Mekanis</h4>
-                                <p class="text-gray-400 text-sm mb-4">Simposium tahun ini mengundang para akademisi untuk mengeksplorasi hubungan antara ilmu mesin dan bentuk narasi modern.</p>
-                                <a href="https://sastramesin.edu/news/symposium-cfp" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Read News <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in" style="--delay: 0.7s;">
-                            <div class="h-36 news-img-6"></div>
-                            <div class="p-6">
-                                <h4 class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300">Inisiatif Riset Fakultas: Quantum Poetics</h4>
-                                <p class="text-gray-400 text-sm mb-4">Proyek kolaboratif baru dari Departemen Fisika dan Departemen Sastra mengeksplorasi bagaimana teori kuantum dapat memperkaya pemahaman kita tentang struktur bahasa.</p>
-                                <a href="https://sastramesin.edu/news/quantum-poetics" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium hover:text-blue-400 transition duration-300">Baca Berita <i class="fas fa-arrow-right ml-1"></i></a>
-                            </div>
-                        </div>
-
-                    </div>
+            <!-- Gallery Item 2 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="lab"
+              style="--delay: 0.4s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Laboratory"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
                 </div>
-                
-                <div class="text-center mt-12 fade-in" style="--delay: 0.8s;">
-                    <a href="https://sastramesin.edu/news" target="_blank" rel="noopener noreferrer" class="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-300 transition duration-300 shadow-xl">View All Announcements</a>
-                </div>
+              </div>
             </div>
-        </section>
 
+            <!-- Gallery Item 3 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="event"
+              style="--delay: 0.5s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Event"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="research"
+              style="--delay: 0.6s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Research"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="campus"
+              style="--delay: 0.7s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Campus View"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="lab"
+              style="--delay: 0.8s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Workshop"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 7 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="event"
+              style="--delay: 0.9s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Graduation"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 8 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="research"
+              style="--delay: 1s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Research Project"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 9 -->
+            <div
+              class="gallery-item fade-in"
+              data-category="campus"
+              style="--delay: 1.1s"
+            >
+              <div
+                class="relative overflow-hidden rounded-xl cursor-pointer group"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Library"
+                  class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+                >
+                  <i class="fas fa-search-plus text-4xl text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div
+          id="lightbox"
+          class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center"
+        >
+          <button
+            id="closeLightbox"
+            class="absolute top-4 right-4 text-white text-4xl hover:text-blue-400 transition duration-300"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <button
+            id="prevImage"
+            class="absolute left-4 text-white text-4xl hover:text-blue-400 transition duration-300"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button
+            id="nextImage"
+            class="absolute right-4 text-white text-4xl hover:text-blue-400 transition duration-300"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <img
+            id="lightboxImage"
+            src=""
+            alt="Gallery Image"
+            class="max-w-7xl max-h-[90vh] object-contain"
+          />
+        </div>
+      </section>
+
+      <section id="events" class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="playfair text-5xl font-bold mb-12 text-center text-white border-b-4 border-blue-500/50 pb-2 inline-block mx-auto fade-in"
+            style="--delay: 0s"
+          >
+            Latest News & Events
+          </h2>
+
+          <div class="grid lg:grid-cols-3 gap-10 mb-16">
+            <div class="lg:col-span-1 fade-in" style="--delay: 0.1s">
+              <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                <h3
+                  class="text-2xl font-bold playfair mb-4 text-white border-b border-gray-700 pb-2"
+                >
+                  Academic Calendar
+                </h3>
+                <div class="calendar-widget text-center">
+                  <p class="text-lg font-semibold text-blue-400 mb-3">
+                    November 2025
+                  </p>
+                  <div
+                    class="grid grid-cols-7 gap-1 text-sm text-gray-400 font-medium"
+                  >
+                    <span>S</span><span>M</span><span>T</span><span>W</span
+                    ><span>T</span><span>F</span><span>S</span>
+                  </div>
+                  <div class="grid grid-cols-7 gap-1 mt-1 text-white">
+                    <span class="py-1"></span><span class="py-1"></span
+                    ><span class="py-1"></span><span class="py-1"></span
+                    ><span class="py-1">1</span><span class="py-1">2</span>
+                    <span class="py-1">3</span
+                    ><span
+                      class="py-1 bg-blue-600 rounded-full font-bold text-sm"
+                      >4</span
+                    ><span class="py-1">5</span><span class="py-1">6</span
+                    ><span class="py-1">7</span><span class="py-1">8</span
+                    ><span class="py-1">9</span> <span class="py-1">10</span
+                    ><span class="py-1">11</span
+                    ><span class="py-1 bg-gray-700 rounded-full text-sm"
+                      >12</span
+                    ><span class="py-1">13</span><span class="py-1">14</span
+                    ><span class="py-1">15</span><span class="py-1">16</span>
+                    <span class="py-1">17</span><span class="py-1">18</span
+                    ><span
+                      class="py-1 bg-blue-600 rounded-full font-bold text-sm"
+                      >19</span
+                    ><span class="py-1">20</span><span class="py-1">21</span
+                    ><span class="py-1">22</span><span class="py-1">23</span>
+                    <span class="py-1">24</span><span class="py-1">25</span
+                    ><span class="py-1">26</span><span class="py-1">27</span
+                    ><span class="py-1 bg-gray-700 rounded-full text-sm"
+                      >28</span
+                    ><span class="py-1">29</span><span class="py-1">30</span>
+                  </div>
+                  <ul class="mt-4 text-left text-sm space-y-2">
+                    <li class="flex items-center">
+                      <span class="w-2 h-2 bg-blue-600 rounded-full mr-2"></span
+                      ><span class="text-white"
+                        >Nov 4: Fall Thesis Submission Deadline</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span class="w-2 h-2 bg-gray-700 rounded-full mr-2"></span
+                      ><span class="text-white"
+                        >Nov 12: Guest Lecture: Future of AI</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span class="w-2 h-2 bg-blue-600 rounded-full mr-2"></span
+                      ><span class="text-white"
+                        >Nov 19: Annual Sastra Mesin Gala</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span class="w-2 h-2 bg-gray-700 rounded-full mr-2"></span
+                      ><span class="text-white"
+                        >Nov 28: Faculty Development Workshop</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2 grid sm:grid-cols-2 gap-8">
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.2s"
+              >
+                <div class="h-36 news-img-1"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Prof. Irene Meraih Hibah Besar untuk Riset Literasi Mesin
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Proyek Profesor Irene tentang pemrosesan bahasa alami
+                    menerima pendanaan sebesar 3,2 juta dolar untuk pengembangan
+                    penelitian di Sastra Mesin.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/literary-tech-grant"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Baca Berita <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.3s"
+              >
+                <div class="h-36 news-img-2"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Tim Robotika Mahasiswa Menjuarai Kompetisi Nasional
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Tim robotika kami memenangkan kompetisi nasional berkat
+                    inovasi desain dan keunggulan teknis yang menunjukkan
+                    dedikasi mereka sepanjang tahun.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/robotics-competition"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Baca Berita <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.4s"
+              >
+                <div class="h-36 news-img-3"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Program Magister Interdisipliner Baru Berencana Diluncurkan
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Program Magister baru kami, Strategi Interdisipliner dalam
+                    Rekayasa dan Narasi, menggabungkan pendidikan teknik dengan
+                    studi sastra untuk membentuk pemimpin masa depan yang
+                    visioner.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/masters-program"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Read News <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.5s"
+              >
+                <div class="h-36 news-img-4"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Sorotan Alumni: Membangun Kota Cerdas Berkelanjutan
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Salah satu lulusan kami, Sahrul A., memimpin proyek rekayasa
+                    yang bertujuan menciptakan solusi kota cerdas yang lebih
+                    berkelanjutan untuk masa depan.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/alumni-spotlight"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Baca Berita <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.6s"
+              >
+                <div class="h-36 news-img-5"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Panggilan untuk Makalah: Simposium Narasi Mekanis
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Simposium tahun ini mengundang para akademisi untuk
+                    mengeksplorasi hubungan antara ilmu mesin dan bentuk narasi
+                    modern.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/symposium-cfp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Read News <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div
+                class="bg-gray-800 rounded-xl shadow-lg overflow-hidden fade-in"
+                style="--delay: 0.7s"
+              >
+                <div class="h-36 news-img-6"></div>
+                <div class="p-6">
+                  <h4
+                    class="text-xl font-bold playfair mb-2 text-white hover:text-blue-400 transition duration-300"
+                  >
+                    Inisiatif Riset Fakultas: Quantum Poetics
+                  </h4>
+                  <p class="text-gray-400 text-sm mb-4">
+                    Proyek kolaboratif baru dari Departemen Fisika dan
+                    Departemen Sastra mengeksplorasi bagaimana teori kuantum
+                    dapat memperkaya pemahaman kita tentang struktur bahasa.
+                  </p>
+                  <a
+                    href="https://sastramesin.edu/news/quantum-poetics"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 font-medium hover:text-blue-400 transition duration-300"
+                    >Baca Berita <i class="fas fa-arrow-right ml-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-12 fade-in" style="--delay: 0.8s">
+            <a
+              href="https://sastramesin.edu/news"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-300 transition duration-300 shadow-xl"
+              >View All Announcements</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-black border-t border-gray-800 pt-16 pb-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-12 border-b border-gray-800 pb-10">
-                
-                <div>
-                    <h5 class="text-xl font-bold playfair mb-4 text-blue-500">Hubungi Kami</h5>
-                    <p class="text-gray-400 mb-2">Fakultas Sastra Mesin</p>
-                    <p class="text-gray-400 mb-2">100 Tanjung Raya 1, Pontianak, Kalimantan Barat 90210</p>
-                    <p class="text-gray-400 mb-2">Email: <a href="mailto:info@sastramesin.edu" class="hover:text-blue-400">info@sastramesin.edu</a></p>
-                    <p class="text-gray-400">Telefon: (123) 456-7890</p>
-                </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-12 border-b border-gray-800 pb-10">
+          <div>
+            <h5 class="text-xl font-bold playfair mb-4 text-blue-500">
+              Hubungi Kami
+            </h5>
+            <p class="text-gray-400 mb-2">Fakultas Sastra Mesin</p>
+            <p class="text-gray-400 mb-2">
+              100 Tanjung Raya 1, Pontianak, Kalimantan Barat 90210
+            </p>
+            <p class="text-gray-400 mb-2">
+              Email:
+              <a href="mailto:info@sastramesin.edu" class="hover:text-blue-400"
+                >info@sastramesin.edu</a
+              >
+            </p>
+            <p class="text-gray-400">Telefon: (123) 456-7890</p>
+          </div>
 
-                <div>
-                    <h5 class="text-xl font-bold playfair mb-4 text-white">Quick Links</h5>
-                    <ul class="space-y-2">
-                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition duration-300">Admissions</a></li>
-                        <li><a href="#programs" class="text-gray-400 hover:text-blue-400 transition duration-300">Research</a></li>
-                        <li><a href="#scholarship" class="text-gray-400 hover:text-blue-400 transition duration-300">Library</a></li>
-                        <li><a href="#faculty" class="text-gray-400 hover:text-blue-400 transition duration-300">Faculty Directory</a></li>
-                    </ul>
-                </div>
+          <div>
+            <h5 class="text-xl font-bold playfair mb-4 text-white">
+              Quick Links
+            </h5>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#about"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Admissions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#programs"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Research</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#scholarship"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Library</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#faculty"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Faculty Directory</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div>
-                    <h5 class="text-xl font-bold playfair mb-4 text-white">Student Resources</h5>
-                    <ul class="space-y-2">
-                        <li><a href="https://sastramesin.edu/registration" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-400 transition duration-300">Course Registration</a></li>
-                        <li><a href="#events" class="text-gray-400 hover:text-blue-400 transition duration-300">Kalender Akademik</a></li>
-                        <li><a href="https://sastramesin.edu/careers" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-400 transition duration-300">Career Services</a></li>
-                        <li><a href="https://sastramesin.edu/safety" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-400 transition duration-300">Campus Safety</a></li>
-                    </ul>
-                </div>
-                
-                <div class="flex flex-col items-start md:items-end">
-                    <h5 class="text-xl md:text-2xl font-bold playfair text-white mb-4">Faculty of Sastra Mesin</h5>
-                    <div class="flex space-x-4 text-2xl mb-6">
-                        <a href="https://www.facebook.com/sastramesin" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition duration-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/sastramesin" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition duration-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/school/sastramesin" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition duration-300" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.youtube.com/@sastramesin" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition duration-300" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    </div>
-                    <p class="text-sm text-gray-500 text-right">Commitment to Excellence</p>
-                </div>
+          <div>
+            <h5 class="text-xl font-bold playfair mb-4 text-white">
+              Student Resources
+            </h5>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="https://sastramesin.edu/registration"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Course Registration</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#events"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Kalender Akademik</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://sastramesin.edu/careers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Career Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://sastramesin.edu/safety"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-blue-400 transition duration-300"
+                  >Campus Safety</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col items-start md:items-end">
+            <h5 class="text-xl md:text-2xl font-bold playfair text-white mb-4">
+              Faculty of Sastra Mesin
+            </h5>
+            <div class="flex space-x-4 text-2xl mb-6">
+              <a
+                href="https://www.facebook.com/sastramesin"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-400 hover:text-blue-500 transition duration-300"
+                aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.twitter.com/sastramesin"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-400 hover:text-blue-500 transition duration-300"
+                aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/school/sastramesin"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-400 hover:text-blue-500 transition duration-300"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@sastramesin"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-400 hover:text-blue-500 transition duration-300"
+                aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
             </div>
-
-            <div class="mt-8 text-center">
-                <p class="text-sm text-gray-500">&copy; 2025 Faculty of Sastra Mesin. All rights reserved. | <a href="https://sastramesin.edu/privacy" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">Privacy Policy</a></p>
-            </div>
+            <p class="text-sm text-gray-500 text-right">
+              Commitment to Excellence
+            </p>
+          </div>
         </div>
+
+        <div class="mt-8 text-center">
+          <p class="text-sm text-gray-500">
+            &copy; 2025 Faculty of Sastra Mesin. All rights reserved. |
+            <a
+              href="https://sastramesin.edu/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-blue-400"
+              >Privacy Policy</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
-    <script src ="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
